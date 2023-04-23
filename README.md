@@ -1,7 +1,5 @@
 # Redmine Create Git plugin
 
-The *original developer* of the plugin is *martin-denizet*. I just modified this plugin a little.
-
 Create and initialize a new Git repository from Redmine within seconds!
 
 *WARNING:* This plugin is quite specific to a certain setup and was not made to work across all kind of implementations

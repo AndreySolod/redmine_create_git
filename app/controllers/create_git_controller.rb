@@ -89,7 +89,7 @@ class CreateGitController < ApplicationController
 
   before_action :find_project, :only => [:new, :create]
   before_action :check_create_permission
-  before_action :check_settings_create_git
+#  before_action :check_settings_create_git
 
   def new
 

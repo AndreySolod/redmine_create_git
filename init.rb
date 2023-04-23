@@ -12,9 +12,9 @@ Redmine::Plugin.register :redmine_create_git do
   url 'https://github.com/martin-denizet/redmine_create_git'
   author_url 'http://martin-denizet.com'
   description 'Ease the creation of Git repositories when using Git Smart HTTP'
-  version '0.3.0'
+  version '0.2.0'
 
-  requires_redmine :version_or_higher => '5.0.0'
+  requires_redmine :version_or_higher => '2.0.0'
 
   settings :default => {
       :gitignore => '',
