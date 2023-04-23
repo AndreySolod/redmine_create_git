@@ -1,0 +1,19 @@
+ru:
+  messages:
+    change_settings: 'Не нравятся эти настройки?'
+  errors:
+    repo_path_undefined: 'Путь до репозитория не определён'
+    repo_path_doesnt_exist: 'Директория "%{path}" не существует на этом сервере'
+    repo_path_not_writable: 'На директорию "%{path}" нет прав на запись от лица пользователя Rails. Возможно, Вы захотите использовать команду "chown" для исправления'
+    repo_already_exists: 'В директории "%{path}" уже есть репозиторий!'
+  help:
+    field_repo_path: 'Директория на сервере, должна быть доступной для записи для пользователей Rails'
+    field_repo_url: 'URL для отображения в случае, если плагин Redmine Checkout установлен. Например: https://redmine.domain.com/git/'
+    field_branches: 'Ветки, отличные от master, которые будут создаваться по умолчанию'
+    field_gitignore: 'Контент по умолчанию для файла .gitignore'
+  labels:
+    gitignore: '[Опционально] Gitignore'
+    branches: '[Опционально] Ветки'
+    repo_url: '[Опционально] Repository URL'
+  buttons:
+    quick_create: 'Создать на сервере'
